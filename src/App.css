@@ -1,4 +1,4 @@
-/* App.css */
+
 
 body {
   margin: 0;
@@ -7,8 +7,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: linear-gradient(to bottom right, #1a202c, #2d3748, #000); /* Dark professional background */
-  color: #f7fafc; /* Very light gray text */
+  background: linear-gradient(to bottom right, #1a202c, #2d3748, #000); 
+  color: #f7fafc; 
 }
 
 code {
@@ -37,7 +37,7 @@ code {
 }
 
 nav.bg-gray-800 {
-  background-color: #2d3748; /* Dark gray navigation background */
+  background-color: #2d3748;
 }
 
 nav .py-4 {
@@ -81,7 +81,7 @@ nav .flex-shrink-0 {
 }
 
 nav .text-white {
-  color: #fff; /* White navigation text */
+  color: #fff; 
 }
 
 nav .font-bold {
@@ -110,15 +110,15 @@ nav .space-x-4 > * + * {
 }
 
 nav a.text-gray-300 {
-  color: #d2d6dc; /* Medium gray navigation link text */
+  color: #d2d6dc;
 }
 
 nav a.hover\:bg-gray-700:hover {
-  background-color: #4a5568; /* Darker gray hover for navigation links */
+  background-color: #4a5568;
 }
 
 nav a.hover\:text-white:hover {
-  color: #fff; /* White hover text for navigation links */
+  color: #fff; 
 }
 
 nav a.px-3 {
@@ -144,9 +144,9 @@ nav a.font-medium {
   font-weight: 500;
 }
 
-/* --- Form Container Styles --- */
+
 .bg-white\/5 {
-  background-color: rgba(255, 255, 255, 0.05); /* Very light transparent white background */
+  background-color: rgba(255, 255, 255, 0.05); 
 }
 
 .p-6 {
@@ -158,7 +158,7 @@ nav a.font-medium {
 }
 
 .shadow-lg {
-  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); /* Subtle shadow */
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); 
 }
 
 .backdrop-blur-md {
@@ -170,7 +170,7 @@ nav a.font-medium {
 }
 
 .border-white\/10 {
-  border-color: rgba(255, 255, 255, 0.1); /* Very light white border */
+  border-color: rgba(255, 255, 255, 0.1); 
 }
 
 /* --- Form Title Styles --- */
@@ -184,7 +184,7 @@ nav a.font-medium {
 }
 
 .text-white {
-  color: #fff; /* White text */
+  color: #fff;
 }
 
 .mb-4 {
@@ -196,7 +196,7 @@ nav a.font-medium {
   margin-top: 1rem;
 }
 
-/* --- Label Styles --- */
+
 .block {
   display: block;
 }
@@ -211,7 +211,7 @@ nav a.font-medium {
 }
 
 .text-gray-200 {
-  color: #e5e7eb; /* Light gray label text */
+  color: #e5e7eb; 
 }
 
 .mb-1 {
@@ -242,19 +242,19 @@ nav a.font-medium {
 }
 
 .border-gray-300 {
-  border-color: #d1d5db; /* Light gray input border */
+  border-color: #d1d5db;
 }
 
 .bg-white\/20 {
-  background-color: rgba(255, 255, 255, 0.2); /* Light transparent white input background */
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 .text-white {
-  color: #fff; /* White input text */
+  color: #fff; 
 }
 
 .placeholder\:text-gray-400::placeholder {
-  color: #9ca3af; /* Medium gray placeholder text */
+  color: #9ca3af; 
 }
 
 .focus\:ring-2:focus {
@@ -262,24 +262,24 @@ nav a.font-medium {
 }
 
 .focus\:ring-blue-500:focus {
-  --tw-ring-color: #64b5f6; /* Light blue focus ring */
+  --tw-ring-color: #64b5f6; 
   box-shadow: 0 0 0 2px var(--tw-ring-color);
 }
 
 .focus\:border-blue-500:focus {
-  border-color: #64b5f6; /* Light blue focus border */
+  border-color: #64b5f6;
 }
 
 .border-red-500 {
-  border-color: #e57373; /* Light red error border */
+  border-color: #e57373; 
 }
 
 .bg-red-500\/10 {
-  background-color: rgba(229, 115, 115, 0.1); /* Light transparent red error background */
+  background-color: rgba(229, 115, 115, 0.1); 
 }
 
 .text-red-400 {
-  color: #f44336; /* Red error text */
+  color: #f44336;
 }
 
 .placeholder\:text-red-400::placeholder {
@@ -305,9 +305,9 @@ nav a.font-medium {
   transition-duration: 200ms;
 }
 
-/* --- Error Message Styles --- */
+
 .text-red-400 {
-  color: #f44336; /* Red error text */
+  color: #f44336; 
 }
 
 .text-sm {
@@ -319,17 +319,17 @@ nav a.font-medium {
   margin-top: 0.25rem;
 }
 
-/* --- Button Styles --- */
+
 .bg-blue-500 {
-  background-color: #64b5f6; /* Light blue button background */
+  background-color: #64b5f6; 
 }
 
 .hover\:bg-blue-600:hover {
-  background-color: #42a5f5; /* Slightly darker light blue hover */
+  background-color: #42a5f5;
 }
 
 .text-white {
-  color: #fff; /* White button text */
+  color: #fff; 
 }
 
 .py-2 {
@@ -347,7 +347,7 @@ nav a.font-medium {
   transition-duration: 200ms;
 }
 
-/* --- Services List Styles --- */
+
 .list-disc {
   list-style-type: disc;
 }
@@ -361,13 +361,13 @@ nav a.font-medium {
 }
 
 .text-gray-200 {
-  color: #e5e7eb; /* Light gray service list text */
+  color: #e5e7eb; 
 }
 
-/* --- About Mantaray Styles --- */
+
 .text-gray-300 {
-  color: #d2d6dc; /* Medium gray about text */
-  line-height: 1.6; /* Slightly increased line height for better readability */
+  color: #d2d6dc; 
+  line-height: 1.6; 
 }
 
 /* --- Client Logos Styles --- */
