@@ -1,14 +1,14 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-
+import './App.css';
 import Header from './components/header';
 import HomePage from './components/homepage';
 import Footer from './components/footer';
 import Product from './components/product'; 
 import Contact from './components/contact'; 
-import WorkPage from './components/workpage'; 
+import CombinedSection from './components/workpage'; 
 import ServicePage from './components/servicepage'; 
-import {About,IntroductionSection}  from './components/about'; 
+import AboutUsPage  from './components/about'; 
 
 function App() {
   return (
@@ -17,9 +17,9 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/servicepage" element={<ServicePage />} />
-        <Route path="/about" element={<><IntroductionSection /><About /></>}/>
+        <Route path="/about" element={<AboutUsPage/>}/>
         <Route path="/product" element={<Product />} />
-        <Route path="/workpage" element={<WorkPage />} />
+        <Route path="/workpage" element={<CombinedSection />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
